@@ -43,7 +43,7 @@ post("verify_credentials", { :controller => "users", :action => "authenticate"})
   # Comment routes
 
   # CREATE
-  get("/insert_comment_record", { :controller => "comments", :action => "create" })
+  post("/insert_comment_record", { :controller => "comments", :action => "create" })
 
   # DELETE
 
